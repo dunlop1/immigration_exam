@@ -21,7 +21,7 @@
 
 .title-area {
   background-image: url('../../resources/background_02.png');
-  background-position: left top;
+  background-position: left -10px top;
   background-repeat: no-repeat;
   background-size: contain;
   width: 80%;
@@ -43,7 +43,7 @@
 .title-area p {
   padding: 0vh 8vw 2vw 8vw;
   font-size: 18px;
-  color: #fff;
+  color: #796F6D;
 }
 
 .btn-area {
@@ -100,7 +100,6 @@
 
   .title-area p {
     font-size: 16px;
-    color: #fff;
   }
 
   .btn-long {
