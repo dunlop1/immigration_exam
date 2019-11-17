@@ -13,6 +13,28 @@
     display: block;
     margin: 20px;
 }
+.SideNav>div{
+    overflow: hidden;
+}
+.SideNav>div:hover{
+    overflow: visible;
+}
+div>span{
+    position: relative;
+    top: -40px;
+    left: -45px;
+}
+div>span:focus{
+    display: block;
+}
+
+.SideNav-link:focus{
+    box-shadow: 0px 0px 10px #00CDFD;
+    border-radius: 50%;
+    border-color:rgb(255, 255, 255);
+    background-color: #00CDFD;
+    border-width: 2px;
+}
 
 .current {
     background: #00CDFD;
